@@ -31,3 +31,5 @@ def num(list1, list2):
 list1 = [734,210,924]
 list2 = [422,560,921]
 print(num(list1, list2))
+
+'''Lists lengths must be the same. If you want to give a smaller value than in the other list, write 0 (for example list1 = [0,0,123], list2 = [123,225,743]) 
