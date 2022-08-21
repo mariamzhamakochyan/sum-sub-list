@@ -4,7 +4,7 @@ def sub(list1, list2):
     i = len(list1) - 1
     j = len(new_list2) - 1
     while i >= 0 and j >= 0:
-        list.append(str(list1[i] + ew_list2[j]))
+        list.append(str(list1[i] + new_list2[j]))
         i -=1
         j -=1     
     for n in range(0, len(list)):
